@@ -1,0 +1,45 @@
+.nav-pills {
+	display: none;
+}
+@media (min-width: 768px) {
+	.nav-pills {
+		display: flex;
+		margin-top: 30px;
+
+		li.nav-item {
+			text-align: left;
+
+			a {
+				text-transform: uppercase;
+				color: $white;
+				background-color: $blue-light;
+				&:hover {
+					background-color: $blue-dark;
+				}
+				&.active {
+					color: $white !important;
+				}
+			}
+
+			&:first-of-type {
+				//  padding-left: 0;
+			}
+		}
+	}
+
+	.nav-justified .nav-item {
+		text-align: left;
+	}
+
+	.nav-pills,
+	.nav-pills .nav-link.active {
+		@include font-bold;
+	}
+}
+
+@media (max-width: 767px) {
+	.tab-pane {
+		display: block !important;
+		opacity: 1;
+	}
+}

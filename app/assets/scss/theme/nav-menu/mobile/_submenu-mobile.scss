@@ -1,0 +1,47 @@
+@include mq($until: $collapse-breakpoint) {
+	.submenu {
+		display: none;
+		* {
+			color: $black;
+			a:hover {
+				color: $red;
+			}
+		}
+		> ul {
+			list-style-type: none;
+			padding-left: 0.5rem;
+
+			li {
+				position: relative;
+
+				a.category-title {
+					span.icon {
+						position: absolute;
+						right: 0.5rem;
+						font-size: 1.5rem;
+						border: 1px solid green;
+						width: 40px;
+						height: 20px;
+						&.opened {
+							i {
+								color: $red;
+							}
+						}
+					}
+				}
+				> ul {
+					list-style-type: none;
+					padding-left: 0.5rem;
+					display: none;
+					margin-bottom: 1rem;
+					> li {
+						@include font-light;
+
+						a {
+						}
+					}
+				}
+			}
+		}
+	}
+}

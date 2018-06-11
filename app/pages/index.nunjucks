@@ -1,0 +1,640 @@
+{% extends "layout.nunjucks" %}
+{% block content %}
+  <!-- Adds the navigation partial -->
+  {% include "partials/navigation.nunjucks" %}
+
+  <main>
+    <section class="slider">
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="carousel-caption">
+                    <h1>Analoges Profi-Telefon mit Headset-Anschlus .</h1>
+                    <ul>
+                      <li>Anschluss an analoge Telefonleitung</li>
+                      <li>Anrufbeantworter f&uuml;r bis zu 25 Minuten Aufnahmezeit</li>
+                      <li>Grafisches LCD Display (400 x 240 Pixel)</li>
+                      <li>10 programmierbare Funktionstasten</li>
+                      <li>USB 2.0-Anschluss</li>
+                      <li>Headset-Anschluss: RJ-45-Buchse (DHSG)</li>
+                    </ul>
+                    <a class="btn btn-primary" href="#">Learn more</a>
+                  </div>
+
+                  <img src="assets/images/carousel.jpg" alt="Second slide" class="img-fluid">
+                </div>
+                <div class="carousel-item ">
+                  <div class="video-container">
+                    <video src="assets/video/woods4.mp4" autoplay="autoplay" loop="loop" class="vid"></video>
+                  </div>
+
+                </div>
+
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <!-- /col-lg-12 -->
+        </div>
+        <!-- /row -->
+      </div>
+      <!-- /container-fluid -->
+    </section>
+    <section class="ribbon">
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-12 brands">
+            <div class="brands__image">
+              <a href="#">
+                <img src="assets/images/brand-gray.png" alt="" class="img-fluid img-default">
+                <img src="assets/images/brand-rollover.png" alt="" class="img-fluid img-rollover">
+              </a>
+            </div>
+            <div class="brands__image">
+              <a href="#">
+                <img src="assets/images/brand-gray.png" alt="" class="img-fluid img-default">
+                <img src="assets/images/brand-rollover.png" alt="" class="img-fluid img-rollover">
+              </a>
+            </div>
+            <div class="brands__image">
+              <a href="#">
+                <img src="assets/images/brand-gray.png" alt="" class="img-fluid img-default">
+                <img src="assets/images/brand-rollover.png" alt="" class="img-fluid img-rollover">
+              </a>
+            </div>
+            <div class="brands__image">
+              <a href="#">
+                <img src="assets/images/brand-gray.png" alt="" class="img-fluid img-default">
+                <img src="assets/images/brand-rollover.png" alt="" class="img-fluid img-rollover">
+              </a>
+            </div>
+            <div class="brands__image">
+              <a href="#">
+                <img src="assets/images/brand-gray.png" alt="" class="img-fluid img-default">
+                <img src="assets/images/brand-rollover.png" alt="" class="img-fluid img-rollover">
+              </a>
+            </div>
+            <div class="brands__image">
+              <a href="#">
+                <img src="assets/images/brand-gray.png" alt="" class="img-fluid img-default">
+                <img src="assets/images/brand-rollover.png" alt="" class="img-fluid img-rollover">
+              </a>
+            </div>
+            <div class="brands__image">
+              <a href="#">
+                <img src="assets/images/brand-gray.png" alt="" class="img-fluid img-default">
+                <img src="assets/images/brand-rollover.png" alt="" class="img-fluid img-rollover">
+              </a>
+            </div>
+            <div class="brands__image">
+              <a href="#">
+                <img src="assets/images/brand-gray.png" alt="" class="img-fluid img-default">
+                <img src="assets/images/brand-rollover.png" alt="" class="img-fluid img-rollover">
+              </a>
+            </div>
+            <div class="brands__image">
+              <a href="#">
+                <img src="assets/images/brand-gray.png" alt="" class="img-fluid img-default">
+                <img src="assets/images/brand-rollover.png" alt="" class="img-fluid img-rollover">
+              </a>
+            </div>
+            <div class="brands__image">
+              <a href="#">
+                <img src="assets/images/brand-gray.png" alt="" class="img-fluid img-default">
+                <img src="assets/images/brand-rollover.png" alt="" class="img-fluid img-rollover">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /row -->
+      </div>
+    </section>
+    <section class="teasers">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="teaserbox">
+              <div class="teaserbox__content">
+                <h2>Drahtlose Headsets</h2>
+                <p>für mehr Effizienz und Kundenzufriedenheit
+                </p>
+                <a href="#">Jetzt entdecken</a>
+              </div>
+              <img src="assets/images/teaser2.png" alt="" class="img-fluid">
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="teaserbox">
+              <div class="teaserbox__content">
+                <h2>Drahtlose Headsets</h2>
+                <p>für mehr Effizienz und Kundenzufriedenheit
+                </p>
+                <a href="#">Jetzt entdecken</a>
+              </div>
+              <img src="assets/images/teaser2.png" alt="" class="img-fluid">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-xs-12">
+            <div class="et-wrapper" isanimating="true">
+              <div class="et-page et-rotate" et-step="2" et-in="moveFromTop" et-out="moveToBottomEasing ontop">
+                <div class="teaserbox">
+                  <div class="teaserbox__content">
+                    <h2>Drahtlose Headsets</h2>
+                    <p>für mehr Effizienz und Kundenzufriedenheit
+                    </p>
+                    <a href="#">Jetzt entdecken</a>
+                  </div>
+                  <img src="assets/images/teaser2.png" alt="" class="img-fluid">
+                </div>
+              </div>
+              <div class="et-page et-rotate" et-step="-1" et-in="moveFromTop" et-out="moveToBottomEasing ontop">
+                <div class="teaserbox">
+                  <div class="teaserbox__content">
+                    <h2>Drahtlose Headsets</h2>
+                    <p>für mehr Effizienz und Kundenzufriedenheit
+                    </p>
+                    <a href="#">Jetzt entdecken</a>
+                  </div>
+                  <img src="assets/images/teaser2.png" alt="" class="img-fluid">
+                </div>
+              </div>
+              <div class="et-page et-rotate" et-step="-1" et-in="moveFromTop" et-out="moveToBottomEasing ontop">
+                <div class="teaserbox">
+                  <div class="teaserbox__content">
+                    <h2>Drahtlose Headsets</h2>
+                    <p>für mehr Effizienz und Kundenzufriedenheit
+                    </p>
+                    <a href="#">Jetzt entdecken</a>
+                  </div>
+                  <img src="assets/images/teaser2.png" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /col-lg-4 -->
+        </div>
+        <!-- /row -->
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+
+        <!-- tab navigation-->
+        <ul class="nav nav-pills nav-justified nav-fill" id="tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active " data-toggle="tab" href="#pane-aktionen" id="tab-aktionen" role="tab">aktionen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#pane-neuerscheinungen" id="tab-neuerscheinungen" role="tab">neuerscheinungen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#pane-ausverkauf" id="tab-ausverkauf" role="tab">ausverkauf</a>
+          </li>
+        </ul>
+        <!-- /tab navigation-->
+
+        <!-- tab content-->
+        <div class="tab-content" id="content" role="tablist">
+          <div aria-labelledby="tab-aktionen" class="card tab-pane fade show active" id="pane-aktionen" role="tabpanel">
+            <div class="card-header" role="tab">
+              <h5>
+                <a aria-controls="collapse-aktionen" aria-expanded="false" class="collapsed" data-toggle="collapse" href="#collapse-aktionen">Aktionen</a>
+              </h5>
+            </div>
+            <div class="collapse" id="collapse-aktionen" role="tabpanel">
+              <div class="row product-wrapper">
+                <div class="col-lg-3 product">
+                  <a href="#"><img alt="" class="product__image" src="assets/images/product-images/medium/1-jabra-evolve.jpg"></a>
+                    <h3>freeVoice SoundPro 430 UC Mono Headset</h3>
+                  <div class="product__stock">
+                    Noch: 48 Stk.
+                  </div>
+                  <div class="product__price--before">
+                    CHF 44.00
+                  </div>
+                  <div class="product__price--now">
+                    CHF 31.20
+                  </div>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="fa fa-shopping-cart"></i>
+                    In den Warenkorb</a>
+                </div>
+                <!-- /col-lg-3 -->
+
+                <div class="col-lg-3 product">
+                  <a href="#"><img alt="" class="product__image" src="assets/images/product-images/medium/1-jabra-evolve.jpg"></a>
+                    <h3>Jabra Engage 75 Stereo Telefon, USB und Handy</h3>
+                  <div class="product__stock">
+                    Noch: 4 Stk.
+                  </div>
+                  <div class="product__price--before">
+                    CHF 467.00
+                  </div>
+                  <div class="product__price--now">
+                    CHF 326.90
+                  </div>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="fa fa-shopping-cart"></i>
+                    In den Warenkorb</a>
+
+                </div>
+                <!-- /col-lg-3 -->
+
+                <div class="col-lg-3 product">
+                  <a href="#"><img alt="" class="product__image" src="assets/images/product-images/medium/2-jabra.jpg"></a>
+                  <div class="product__title">
+                  <h3>
+                    Sennheiser DW Pro 2 DECT Headset UNC, DW 30, Duo asdfasdf asdfa sdf asdf sdf</h3>
+                  </div>
+                  <div class="product__stock">
+                    Noch: 0 Stk. (wird für Sie bestellt)
+
+                  </div>
+                  <div class="product__price--before"></div>
+                  <div class="product__price--now">
+                    CHF 397.00
+                  </div>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="fa fa-shopping-cart"></i>
+                    In den Warenkorb</a>
+
+                </div>
+                <!-- /col-lg-3 -->
+
+                <div class="col-lg-3 product">
+                  <a href="#"><img alt="" class="product__image" src="assets/images/product-images/medium/3-konftel.jpg"></a>
+                  <h3>Polycom SoundStation DUO analog & SIP</h3>
+                  <div class="product__stock">
+                    Noch: 10 Stk.
+                  </div>
+                  <div class="product__price--before">
+                    CHF 889.50
+                  </div>
+                  <div class="product__price--now">
+                    CHF 756.10
+                  </div>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="fa fa-shopping-cart"></i>
+                    In den Warenkorb</a>
+                </div>
+                <!-- /col-lg-3 -->
+
+                <div class="col-lg-3 product">
+                  <a href="#"><img alt="" class="product__image" src="assets/images/product-images/medium/4-lync.jpg"></a>
+                  <h3>Konftel 55</h3>
+                  <div class="product__stock">
+                    Noch: 23 Stk.
+
+                  </div>
+                  <div class="product__price--before">
+                    CHF 467.00
+                  </div>
+                  <div class="product__price--now">
+                    CHF 373.60
+                  </div>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="fa fa-shopping-cart"></i>
+                    In den Warenkorb</a>
+
+                </div>
+                <!-- /col-lg-3 -->
+
+                <div class="col-lg-3 product">
+                  <a href="#"><img alt="" class="product__image" src="assets/images/product-images/medium/5-product.jpg"></a>
+                  <h3>Jabra 450 USB-Handset weiss für Lync, Skype for Business</h3>
+                  <div class="product__stock">
+                    Noch: 7 Stk.
+                  </div>
+                  <div class="product__price--before">
+                    CHF 211.00
+                  </div>
+                  <div class="product__price--now">
+                    CHF 147.70
+                  </div>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="fa fa-shopping-cart"></i>
+                    In den Warenkorb</a>
+
+                </div>
+                <!-- /col-lg-3 -->
+
+                <div class="col-lg-3 product">
+                  <a href="#"><img alt="" class="product__image" src="assets/images/product-images/medium/6-sennheiser.jpg"></a>
+                  <h3>Jabra Evolve 80 Duo ANC 3.5/USB für MS Skype for Business, Teams</h3>
+                  <div class="product__stock">
+                    Verfügbar: 3 Stk.
+                  </div>
+                  <div class="product__price--before">
+                    CHF 385.00
+                  </div>
+                  <div class="product__price--now">
+                    CHF 269.50
+                  </div>
+                  <a href="#" class="btn btn-secondary mt-auto">
+                    <i class="fa fa-shopping-cart"></i>
+                    In den Warenkorb</a>
+
+                </div>
+                <!-- /col-lg-3 -->
+
+                <div class="col-lg-3 product">
+                  <a href="#"><img alt="" class="product__image" src="assets/images/product-images/medium/1-jabra-evolve.jpg"></a>
+                  <h3>freeVoice SoundPro 430 UC Mono Headset</h3>
+                  <div class="product__stock">
+                    Noch: 48 Stk.
+                  </div>
+                  <div class="product__price--before">
+                    CHF 44.00
+                  </div>
+                  <div class="product__price--now">
+                    CHF 31.20
+                  </div>
+                  <a href="#" class="btn btn-secondary mt-auto">
+                    <i class="fa fa-shopping-cart"></i>
+                    In den Warenkorb</a>
+
+                </div>
+                <!-- /col-lg-3 -->
+
+              </div>
+              <!-- /row -->
+
+            </div>
+            <!-- /collapse -->
+          </div>
+          <!-- /tab -->
+
+          <div aria-labelledby="tab-neuerscheinungen" class="card tab-pane fade" id="pane-neuerscheinungen" role="tabpanel">
+            <div class="card-header" role="tab">
+              <h5>
+                <a aria-controls="collapse-neuerscheinungen" aria-expanded="false" class="collapsed" data-toggle="collapse" href="#collapse-neuerscheinungen">neuerscheinungen</a>
+              </h5>
+            </div>
+            <div class="collapse" id="collapse-neuerscheinungen" role="tabpanel">
+              <div class="row product-wrapper">
+                <div class="col-lg-3 product">
+                  <a href="#"><img alt="" class="product__image" src="assets/images/product-images/medium/1-jabra-evolve.jpg"></a>
+                  <h3>freeVoice SoundPro 430 UC Mono Headset</h3>
+                  <div class="product__stock">
+                    Noch: 48 Stk.
+                  </div>
+                  <div class="product__price--before">
+                    CHF 44.00
+                  </div>
+                  <div class="product__price--now">
+                    CHF 31.20
+                  </div>
+                  <a href="#" class="btn btn-secondary mt-auto">
+                    <i class="fa fa-shopping-cart"></i>
+                    In den Warenkorb</a>
+
+                </div>
+                <!-- /col-lg-3 -->
+              </div>
+              <!-- /row -->
+            </div>
+            <!-- /collapse -->
+          </div>
+          <!-- /tab -->
+
+          <div aria-labelledby="tab-ausverkauf" class="card tab-pane fade" id="pane-ausverkauf" role="tabpanel">
+            <div class="card-header" role="tab">
+              <h5>
+                <a aria-controls="collapse-ausverkauf" aria-expanded="false" class="collapsed" data-toggle="collapse" href="#collapse-ausverkauf">Ausverkauf</a>
+              </h5>
+            </div>
+            <div class="collapse" id="collapse-ausverkauf" role="tabpanel">
+              <div class="row product-wrapper">
+                <div class="col-lg-3 product">
+                  <a href="#"><img alt="" class="product__image" src="assets/images/product-images/medium/1-jabra-evolve.jpg"></a>
+                  <h3>freeVoice SoundPro 430 UC Mono Headset</h3>
+                  <div class="product__stock">
+                    Noch: 48 Stk.
+                  </div>
+                  <div class="product__price--before">
+                    CHF 44.00
+                  </div>
+                  <div class="product__price--now">
+                    CHF 31.20
+                  </div>
+                  <a href="#" class="btn btn-secondary mt-auto">
+                    <i class="fa fa-shopping-cart"></i>
+                    In den Warenkorb</a>
+
+                </div>
+                <!-- /col-lg-3 -->
+
+                <div class="col-lg-3 product">
+                  <a href="#"><img alt="" class="product__image" src="assets/images/product-images/medium/2-jabra.jpg"></a>
+                  <h3>freeVoice SoundPro 430 UC Mono Headset</h3>
+                  <div class="product__stock">
+                    Noch: 48 Stk.
+                  </div>
+                  <div class="product__price--before">
+                    CHF 44.00
+                  </div>
+                  <div class="product__price--now">
+                    CHF 31.20
+                  </div>
+                  <a href="#" class="btn btn-secondary mt-auto">
+                    <i class="fa fa-shopping-cart"></i>
+                    In den Warenkorb</a>
+
+                </div>
+                <!-- /col-lg-3 -->
+              </div>
+              <!-- /row -->
+            </div>
+            <!-- /collapse -->
+          </div>
+          <!-- /tab -->
+
+        </div>
+        <!-- /tab content-->
+      </div>
+      <!-- container -->
+    </section>
+    <section class="quote">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <blockquote class="blockquote">
+              <p>mehr Effizienz am Arbeitsplatz dank Drahtlos-Headsets
+              </p>
+              <div class="blockquote-footer">
+                <img data-src="holder.js/150x150/auto/#666:#444/text:Second slide" alt="Second slide" class="img-fluid rounded-circle">
+                <cite title="Source Title">
+                  <div class="cite__name">Maria Bernasconi</div>
+                  <div class="cite__company">Die Schweizerische Post</div>
+                </cite>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+        <!-- /row -->
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="benefit">
+              <i class="fa fa-comments"></i>
+              <h3>Von Kafka, Gummibären und Xylophonmusik: Aufregende Blindtexte und Alternativen zu Lorem Ipsum</h3>
+              <p>LoJemand musste Josef K. verleumdet haben, denn ohne dass er etwas Böses getan hätte, wurde er eines Morgens verhaftet. »Wie ein Hund! « sagte er, es war, als sollte die Scham ihn überleben. Als Gregor Samsa eines Morgens aus unruhigen Träumen
+                erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt. Und es war ihnen wie eine Bestätigung ihrer neuen Träume und guten Absichten, als am Ziele ihrer Fahrt die Tochter als erste sich erhob und ihren jungen Körper dehnte
+              </p>
+            </div>
+          </div>
+          <!-- /col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="benefit">
+              <i class="fa fa-clock-o"></i>
+              <h3>Kompetente Beratung</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+
+          </div>
+          <!-- /col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="benefit">
+              <i class="fa fa-refresh"></i>
+              <h3>Kompetente Beratung</h3>
+              <p>ummibärchen gibt es nicht. Man kauft sie in Packungen an der Kinokasse. Dieser Kauf ist der Beginn einer fast erotischen und sehr ambivalenten Beziehung Gummibärchen-Mensch. Zuerst genießt man. Dieser Genuß umfasst alle Sinne. Man wühlt in den
+                Gummibärchen, man fühlt sie. Gummibärchen haben eine Konsistenz wie weichgekochter Radiergummi. Die Tastempfindung geht auch ins Sexuelle. Das bedeutet nicht unbedingt, daß das Verhältnis zum Gummibärchen ein geschlechtliches wäre, denn prinzipiell
+                sind diese geschlechtsneutral (...)
+              </p>
+            </div>
+          </div>
+          <!-- /col-lg-4 -->
+        </div>
+        <!-- /row -->
+      </div>
+    </section>
+
+    <section class="company">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="teaser">
+              <h4>
+                <i class="fa fa-user"></i>
+                Team</h4>
+              <p>Blindtexte, Fülltexte, Leertexte. Sie haben viele Namen, aber benutzt wird fast immer derselbe: „Lorem ipsum dolor sit amet“. Er wird von Designern bevorzugt eingesetzt, um Layoutvorschläge zu präsentieren, ohne den finalen Text parat zu haben.
+                Dabei gibt es viele Alternativen zu Lorem Ipsum, die viel spannender und auch sinnvoller sind. Denn leider bietet die Mutter aller Blindtexte keine deutsch-üblichen Umlaute, die doch wichtig sind, um den Textfluss abzubilden und damit das Druckbild
+                zu erzeugen.
+
+              </p>
+            </div>
+          </div>
+          <!-- /col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="teaser">
+              <h4>
+                <i class="fa fa-check-circle"></i>
+                Team</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <!-- /col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="teaser">
+              <h4>
+                <i class="fa fa-cogs"></i>
+                Lorem ipsum dolor sit amet</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Blindtexte, Fülltexte, Leertexte. Sie haben viele Namen, aber benutzt wird fast immer derselbe: „Lorem ipsum dolor sit
+                amet“. Er wird von Designern bevorzugt eingesetzt, um Layoutvorschläge zu präsentieren, ohne den finalen Text parat zu haben. Dabei gibt es viele Alternativen zu Lorem Ipsum, die viel spannender und auch sinnvoller sind. Denn leider bietet die Mutter
+                aller Blindtexte keine deutsch-üblichen Umlaute, die doch wichtig sind, um den Textfluss abzubilden und damit das Druckbild zu erzeugen. Blindtexte, Fülltexte, Leertexte. Sie haben viele Namen, aber benutzt wird fast immer derselbe: „Lorem ipsum
+                dolor sit amet“. Er wird von Designern bevorzugt eingesetzt, um Layoutvorschläge zu präsentieren, ohne den finalen Text parat zu haben. Dabei gibt es viele Alternativen zu Lorem Ipsum, die viel spannender und auch sinnvoller sind. Denn leider bietet
+                die Mutter aller Blindtexte keine deutsch-üblichen Umlaute, die doch wichtig sind, um den Textfluss abzubilden und damit das Druckbild zu erzeugen.
+
+              </p>
+            </div>
+          </div>
+          <!-- /col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="teaser">
+              <h4>
+                <i class="fa fa-credit-card"></i>
+                Team</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <!-- /col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="teaser">
+              <h4>
+                <i class="fa fa-user"></i>
+                Lorem ipsumLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <!-- /col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="teaser">
+              <h4>
+                <i class="fa fa-compress"></i>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <!-- /col-lg-4 -->
+        </div>
+        <!-- /row -->
+      </div>
+    </section>
+    <section class="copytext">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12">
+            <h4>Schnurlose Headsets</h4>
+            <p>In der Kategorie schnurlose Headsets finden Sie bei uns eine große Auswahl an kabellosen Headsets für alle Ihre Geräte: Ihr Tischtelefon, Ihr Smartphone und/oder Ihren PC. Je nachdem, mit welchem Gerät Sie das kabellose Headset nutzen möchten,
+              gibt es 4 Untertypen bei Onedirect: Erstens die Headsets für schnurgebundene Telefone, mit den entsprechenden Verbindungskabeln für Tischtelefone von Herstellern wie Alcatel, Siemens, Polycom und viele weitere. Die passenden Kabel für den Anschluss
+              des Headsets finden Sie auf der Produktseite des Headsets unter "Packs" und "Zubehör". Hier finden Sie eine weitere Übersicht zu Schnurlose Headsets für Telefone. Die zweite Produktgruppe innerhalb kabelloser Headsets umfasst die Headsets für
+              schnurlose Telefone mit DECT Technologie, z.B. für Gigaset Schnurlostelefone. Drittens finden Sie hier schnurlose Headsets, die via USB an den PC oder ans Notebook angeschlossen werden, so dass Sie über Skype oder Ihr sonstiges Softphone telefonieren
+              können. Eine vierte Kategorie bilden die schnurlosen Headsets mit Bluetooth, für die Nutzung mit dem Smartphone oder einem sonstigem Bluetooth-fähigen Endgerät
+            </p>
+
+          </div>
+          <!-- /col-md-12 -->
+        </div>
+        <!-- /row -->
+      </div>
+    </section>
+
+  </main>
+
+  {% include "partials/footer.nunjucks" %}
+  {% include "partials/comparelist-modal.nunjucks" %}
+
+{% endblock %}

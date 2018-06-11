@@ -1,0 +1,40 @@
+.comparelist {
+	&__title {
+		margin: 1rem 0;
+		h2 {
+			display: inline;
+			margin: 0 0 0 1rem;
+		}
+		span {
+			font-size: 2rem;
+		}
+	}
+}
+
+/********* table related styles **********/
+#comparelist {
+	width: 100%;
+	th,
+	td {
+		width: 370px;
+		&:first-of-type {
+			min-width: 300px;
+		}
+	}
+	.product {
+		position: relative;
+		a.removeFromComparelist {
+			position: absolute;
+			top: 0.5rem;
+			left: 0.5rem;
+			display: inline-block;
+			height: 1rem;
+			width: 1rem;
+			line-height: 1rem;
+			font-size: 1rem;
+		}
+		a.addToWatchList {
+			margin: 0.5rem 0;
+		}
+	}
+}

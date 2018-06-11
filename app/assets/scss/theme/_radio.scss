@@ -1,0 +1,50 @@
+/* radio button */
+
+$radio-bg-unchecked: $white;
+$radio-bg-checked: $white;
+$radio-border-unchecked: $black;
+$radio-border-checked: $black;
+
+.form-check {
+	&.radio {
+		label {
+			position: relative;
+			line-height: 1.5rem;
+			height: 2rem;
+			padding-left: 1.5rem;
+			vertical-align: middle;
+			span {
+				margin-left: 0;
+				font-weight: normal;
+				&::before {
+					visibility: visible;
+					position: absolute;
+					left: -1rem;
+					top: 0;
+					content: '';
+					border: 0.25rem solid $radio-border-unchecked;
+					-moz-border-radius: 50%;
+					border-radius: 50%;
+					height: 1.5rem;
+					width: 1.5rem;
+					background-color: $radio-bg-unchecked;
+				}
+			}
+		}
+
+		input[type='radio'] {
+			visibility: hidden;
+			margin: 0 !important;
+		}
+
+		input[type='radio']:checked + label > span::before {
+			border: 0.5em solid $radio-border-checked;
+			background-color: $radio-bg-checked;
+			-moz-border-radius: 50%;
+			border-radius: 50%;
+			position: absolute;
+			right: 0;
+			content: '';
+		}
+	}
+}

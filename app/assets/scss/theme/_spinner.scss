@@ -1,0 +1,26 @@
+.spinner-controls {
+	.spin-up {
+		position: absolute;
+		top: 0;
+		right: 185px;
+	}
+	.spin-down {
+		position: absolute;
+		right: 185px;
+		bottom: 0;
+	}
+}
+.foshop-baskets-details {
+	.spinner-controls {
+		.spin-up {
+			position: absolute;
+			top: 0;
+			right: 10px;
+		}
+		.spin-down {
+			position: absolute;
+			right: 10px;
+			bottom: 0;
+		}
+	}
+}

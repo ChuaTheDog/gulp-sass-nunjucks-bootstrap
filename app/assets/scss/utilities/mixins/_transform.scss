@@ -1,0 +1,7 @@
+@mixin transformIcon {
+	-ms-transform: scale(1.25);
+	/* IE 9 */
+	-webkit-transform: scale(1.25);
+	/* Safari */
+	transform: scale(1.25);
+}

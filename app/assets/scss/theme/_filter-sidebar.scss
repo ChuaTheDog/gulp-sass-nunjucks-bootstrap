@@ -1,0 +1,25 @@
+.filter-sidebar {
+	h3 {
+		background-color: $blue-dark;
+		color: $white;
+		font-size: 1rem;
+		padding-left: 0.5rem;
+		line-height: 40px;
+	}
+
+	&__block {
+		margin-bottom: 1.5rem;
+		> h4 {
+			font-size: 16px;
+		}
+		> a {
+			color: $black;
+			display: block;
+			&::before {
+				font-family: FontAwesome;
+				content: '\f105';
+				margin-right: 0.5rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,51 @@
+$checkbox-border-color: $black;
+
+/* checkbox*/
+.checkbox {
+	.form-check {
+		margin-bottom: 0;
+		position: relative;
+		margin: 0.5rem 0;
+
+		label.form-check-label {
+			position: relative;
+			line-height: 1.5rem;
+			height: 1.5rem;
+			padding-left: 1.5rem;
+			vertical-align: middle;
+
+			input[type='checkbox'] {
+				visibility: hidden;
+			}
+
+			span {
+				margin-left: 0;
+
+				&:before {
+					content: '';
+					background-color: #fff;
+					display: inline;
+					margin: 0;
+					color: $checkbox-border-color;
+					width: 22px;
+					height: 20px;
+					visibility: visible;
+					border: 2px solid $checkbox-border-color;
+					box-sizing: content-box;
+					position: absolute;
+					top: 0;
+					left: 0;
+					font-size: 0;
+				}
+			}
+
+			input[type='checkbox']:checked + span:before {
+				font-family: 'FontAwesome';
+				font-size: 1.5rem;
+				line-height: 18px;
+				content: '\f00d';
+				text-align: center;
+			}
+		}
+	}
+}

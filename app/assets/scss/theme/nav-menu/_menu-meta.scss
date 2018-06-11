@@ -1,0 +1,36 @@
+.meta-nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	li {
+		.lang {
+			a {
+				padding: 0.5rem !important;
+			}
+
+			&.active {
+				a {
+					color: $red;
+				}
+			}
+		}
+
+		a {
+			color: $black;
+			@extend .nav-link;
+			padding-right: 0 !important;
+
+			i {
+				margin-right: 0.5rem;
+			}
+
+			&:hover {
+				color: $red;
+			}
+		}
+	}
+	@media screen and (max-width: 1018px) {
+		display: none;
+	}
+}

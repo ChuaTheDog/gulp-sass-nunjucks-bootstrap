@@ -1,0 +1,28 @@
+ol.breadcrumb {
+  background-color: transparent;
+  padding-left: 0;
+
+  li {
+    &::after {
+      font-family: FontAwesome;
+      content: '\f101';
+      margin: 0 0.5rem;
+    }
+
+    &:last-of-type {
+      &::after {
+        content: '';
+      }
+    }
+
+    a {
+      color: $black;
+    }
+
+    &.active {
+      a {
+        color: $red;
+      }
+    }
+  }
+}

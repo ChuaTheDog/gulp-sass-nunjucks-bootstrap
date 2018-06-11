@@ -1,0 +1,17 @@
+ul.pagination{
+  border-radius: 0;
+  li.page-item{
+    &.active{
+      a.page-link{
+        background-color: $white;
+        color: $red;
+        border: 1px solid $red;
+      }
+    }
+    a.page-link{
+      border-radius: 0!important;
+      margin: 0 0.25rem;
+
+    }
+  }
+}

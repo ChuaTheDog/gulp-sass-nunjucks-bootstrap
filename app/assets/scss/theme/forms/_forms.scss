@@ -1,0 +1,95 @@
+@import 'checkbox';
+@import 'radio';
+.form-check {
+	padding-left: 0;
+}
+
+.form-control {
+	height: 38px;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	cursor: pointer;
+	display: block;
+	width: 8px;
+	color: #333;
+	text-align: center;
+	position: relative;
+}
+
+input[type='number']:hover::-webkit-inner-spin-button {
+	//  background: #eee url('http://i.stack.imgur.com/YYySO.png') no-repeat 50% 50%;
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNi43OSA0Mi43MyI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNlYzIwMjc7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5hcnJvdy1udW1iZXI8L3RpdGxlPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9IjAgMTguNCAxOC40IDAgMzYuNzkgMTguNCAwIDE4LjQiLz48cG9seWdvbiBjbGFzcz0iY2xzLTEiIHBvaW50cz0iMzYuNzkgMjQuMzMgMTguNCA0Mi43MyAwIDI0LjMzIDM2Ljc5IDI0LjMzIi8+PC9nPjwvZz48L3N2Zz4=);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	//padding: 4px;
+	position: relative;
+	right: -11px;
+}
+
+.number-arrows {
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNi43OSA0Mi43MyI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNlYzIwMjc7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5hcnJvdy1udW1iZXI8L3RpdGxlPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9IjAgMTguNCAxOC40IDAgMzYuNzkgMTguNCAwIDE4LjQiLz48cG9seWdvbiBjbGFzcz0iY2xzLTEiIHBvaW50cz0iMzYuNzkgMjQuMzMgMTguNCA0Mi43MyAwIDI0LjMzIDM2Ljc5IDI0LjMzIi8+PC9nPjwvZz48L3N2Zz4=);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 170px;
+	top: 9px;
+	z-index: 999;
+}
+.form-group {
+	label:not(.custom-check-label) {
+		@include font-bold;
+	}
+}
+.form-title {
+	@include font-bold;
+}
+
+textarea.form-control {
+	height: 137px !important;
+}
+
+.input-dropdown {
+	> .dropdown-menu {
+		border: 1px solid black;
+		position: absolute;
+		top: 100%;
+		left: auto;
+		right: 0 !important;
+		padding: 0;
+		margin-top: 0;
+		.dropdown-item {
+			position: relative;
+			border-bottom: 1px solid $black;
+			.address-title {
+				@include font-bold;
+			}
+			&:hover {
+				background-color: $black;
+				color: white;
+				cursor: pointer;
+				button {
+					color: white;
+				}
+			}
+			button {
+				position: absolute;
+				top: 0;
+				right: 0;
+				background-color: transparent;
+				border: 0;
+			}
+			&.inactive {
+				display: none;
+			}
+			&.show-inactive {
+				&:hover {
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,47 @@
+.mobile-checkout {
+	&__item {
+		position: relative;
+		margin: 2rem 0;
+		.thumb {
+			padding: 0;
+		}
+
+		.product-title {
+			padding-bottom: 0.5rem;
+			padding-right: 2rem;
+			padding-left: 0;
+			display: block;
+			a {
+				margin-right: 1rem;
+			}
+		}
+		.input-group {
+			input {
+				@extend .form-control;
+				margin: 0 1rem;
+				//		width: 1rem;
+			}
+		}
+
+		button.delete-cart-item {
+			position: absolute;
+			top: -2px;
+			right: 0;
+			background-color: transparent;
+			border: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.cart-quantity {
+		display: block;
+		//padding: 0;
+		flex: 1 0 66.6666666667%;
+		max-width: 100%;
+	}
+	.cart-price {
+		padding: 0;
+		max-width: 50px;
+	}
+}

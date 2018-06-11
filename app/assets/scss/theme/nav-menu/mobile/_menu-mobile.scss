@@ -1,0 +1,44 @@
+@include mq($until: $collapse-breakpoint) {
+	ul.main-nav {
+		@include font-bold;
+		> li {
+			font-size: 18px !important;
+			text-transform: uppercase;
+			position: relative;
+			> a.nav-link {
+				color: $black;
+				position: relative;
+				span.icon {
+					position: absolute;
+					right: 0.5rem;
+					font-size: 1.5rem;
+					border: 1px solid red;
+					width: 40px;
+					height: 30px;
+				}
+			}
+			&:hover,
+			&.active {
+				a.nav-link {
+					color: $red;
+				}
+			}
+		}
+	}
+
+	.open-menu,
+	.open-submenu {
+		background: transparent;
+		border: 0;
+		position: absolute;
+		top: 0;
+		right: 0;
+		display: block;
+		-moz-transition: transform 0.5s;
+		-webkit-transition: transform 0.5s;
+		transition: transform 0.5s;
+		&.opened {
+			transform: rotate(-90deg);
+		}
+	}
+}

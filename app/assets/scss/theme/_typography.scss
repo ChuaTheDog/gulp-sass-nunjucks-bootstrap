@@ -1,0 +1,154 @@
+@font-face {
+	font-family: 'Univers LT 67 CondensedBold';
+	src: url('../fonts/univers/UniversLT-CondensedBold.eot');
+	src: url('../fonts/univers/UniversLT-CondensedBold.eot?#iefix')
+			format('embedded-opentype'),
+		url('../fonts/univers/UniversLT-CondensedBold.woff2') format('woff2'),
+		url('../fonts/univers/UniversLT-CondensedBold.woff') format('woff'),
+		url('../fonts/univers/UniversLT-CondensedBold.ttf') format('truetype'),
+		url('../fonts/univers/UniversLT-CondensedBold.svg#UniversLT-CondensedBold')
+			format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Univers LT 47 CondensedLt';
+	src: url('../fonts/univers/UniversLT-CondensedLight.eot');
+	src: url('../fonts/univers/UniversLT-CondensedLight.eot?#iefix')
+			format('embedded-opentype'),
+		url('../fonts/univers/UniversLT-CondensedLight.woff2') format('woff2'),
+		url('../fonts/univers/UniversLT-CondensedLight.woff') format('woff'),
+		url('../fonts/univers/UniversLT-CondensedLight.ttf') format('truetype'),
+		url('../fonts/univers/UniversLT-CondensedLight.svg#UniversLT-CondensedLight')
+			format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@mixin font-bold {
+	font-family: 'Univers LT 67 CondensedBold';
+	font-weight: bold;
+	font-style: normal;
+}
+@mixin font-light {
+	font-family: 'Univers LT 47 CondensedLt';
+	font-weight: 300;
+	font-style: normal;
+}
+html,
+body {
+	@include font-light;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+	@include font-bold;
+	text-transform: uppercase;
+}
+
+p {
+	@include font-light;
+}
+
+strong,
+b {
+	font-family: 'Univers LT 67 CondensedBold';
+	font-weight: bold;
+	font-style: normal;
+}
+
+.blockquote {
+	margin: 30px 0;
+	justify-content: center;
+
+	> p {
+		font-family: Georgia, 'Times New Roman', Serif;
+		font-size: 36px;
+		font-style: italic;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	.blockquote-footer {
+		color: $black;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		img {
+			margin-right: 1rem;
+		}
+
+		&::before {
+			content: '';
+		}
+
+		.cite__name {
+			@include font-bold;
+		}
+	}
+}
+
+.benefit {
+	text-align: center;
+	margin-bottom: 2rem;
+
+	i {
+		font-size: 72px;
+		margin: 2rem;
+	}
+
+	h3 {
+		text-align: left;
+	}
+
+	p {
+		text-align: left;
+	}
+}
+
+.cteaser {
+	margin-bottom: 1rem;
+}
+
+.text-content p {
+	font-family: Helvetica, Arial, sans-serif;
+	margin-top: 0.5rem;
+}
+
+.link-arrow {
+	&::before {
+		font-family: FontAwesome;
+		content: '\f105';
+		font-size: 1rem;
+		margin-right: 0.5rem;
+	}
+}
+
+a:active,
+a:focus {
+	box-shadow: none;
+}
+
+ul.download {
+	list-style-type: none;
+	padding-left: 1rem;
+	margin-top: 1rem;
+	li {
+		line-height: 2rem;
+		a {
+			&::before {
+				font-family: FontAwesome;
+				content: '\f1c1';
+				margin-right: 0.5rem;
+			}
+		}
+	}
+}
+
+.bold {
+	@include font-bold;
+}

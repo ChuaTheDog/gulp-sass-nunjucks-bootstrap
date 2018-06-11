@@ -1,0 +1,14 @@
+$collapse-breakpoint: 1018px;
+
+@mixin view-mobile {
+  @media screen and (max-width: $collapse-breakpoint){
+    @content;
+  }
+}
+
+
+@mixin view-desktop {
+  @media screen and (min-width: $collapse-breakpoint){
+    @content;
+  }
+}

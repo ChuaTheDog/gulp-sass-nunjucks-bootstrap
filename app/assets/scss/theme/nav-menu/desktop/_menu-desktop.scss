@@ -1,0 +1,39 @@
+@include mq($from: 1018px) {
+  .navbar {
+    display: flex;
+
+    .navbar-collapse {
+      flex-basis: 40%!important;
+      min-width: 600px;
+      margin-top: 100px;
+      ul.main-nav {
+        //    position: relative;
+        @include font-bold;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      >li {
+          font-size: 18px!important;
+          text-transform: uppercase;
+          margin-top: 20px;
+          padding-bottom: 20px;
+          &:last-of-type {
+            margin-right: 0;
+          }
+
+          >a {
+            color: $black;
+            padding: 0.5rem;
+            &:first-of-type{
+              padding-left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#navbarMenu > ul > li:nth-child(5) {
+  margin-right: 0;
+}

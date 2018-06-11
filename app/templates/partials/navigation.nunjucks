@@ -1,0 +1,544 @@
+<nav class="navbar navbar-expand-lg fixed-top">
+  <a class="navbar-brand suprag-logo" href="#"></a>
+
+  <button class="hamburger hamburger--collapse" type="button" data-toggle="offcanvas" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+
+  <ul class="nav meta-nav">
+    <li class="nav-item">
+      <a href="#">
+        <i class="fa fa-phone"></i>
+        <span>+41 58 317 20 60</span></a>
+    </li>
+    <li class="nav-item lang active">
+      <a href="#">DE</a>
+    </li>
+    <li class="nav-item lang">
+      <a href="#">FR</a>
+    </li>
+    <li class="nav-item">
+      <a href="#">
+        <i class="fa fa-paper-plane"></i>
+        <span>Newsletter</span></a>
+    </li>
+  </ul>
+
+  <div class="navbar-collapse offcanvas-collapse" id="navbarMenu">
+    <ul class="navbar-nav main-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Produkte
+        </a>
+        <button type="button" name="button" class="open-menu" data-action="toggle-primaryMenu"><i class="fa fa-caret-left "></i></button>
+        <div class="submenu ">
+          <ul>
+            <li>
+              <a href="#" class="category-title">Headset
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Drahtgebunden</a>
+                </li>
+                <li>
+                  <a href="#">Drahtlos</a>
+                </li>
+                <li>
+                  <a href="#">Unified Communictions (USB)</a>
+                </li>
+                <li>
+                  <a href="#">UC Microsoft Lync</a>
+                </li>
+                <li>
+                  <a href="#">Zubehör</a>
+                </li>
+                <li>
+                  <a href="#">Anwendungen</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="#" class="category-title">Phone
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Drahtgebunden</a>
+                </li>
+                <li>
+                  <a href="#">Drahtlos</a>
+                </li>
+                <li>
+                  <a href="#">Unified Communictions (USB)</a>
+                </li>
+                <li>
+                  <a href="#">UC Microsoft Lync</a>
+                </li>
+                <li>
+                  <a href="#">Zubehör</a>
+                </li>
+                <li>
+                  <a href="#">Anwendungen</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="#" class="category-title">Conferencing
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Drahtgebunden</a>
+                </li>
+                <li>
+                  <a href="#">Drahtlos</a>
+                </li>
+                <li>
+                  <a href="#">Unified Communictions (USB)</a>
+                </li>
+                <li>
+                  <a href="#">UC Microsoft Lync</a>
+                </li>
+                <li>
+                  <a href="#">Video</a>
+                </li>
+                <li>
+                  <a href="#">Zubehör</a>
+                </li>
+                <li>
+                  <a href="#">Anwendungen</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="#" class="category-title">Recording</a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">CallRecorder Single</a>
+                </li>
+                <li>
+                  <a href="#">Callrecorder Multi</a>
+                </li>
+                <li>
+                  <a href="#">FaxServer</a>
+                </li>
+                <li>
+                  <a href="#">Zubehör</a>
+                </li>
+                <li>
+                  <a href="#">Anwendungen</a>
+                </li>
+                <li>
+                  <a href="#">Rechtliches</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="#" class="category-title">Anschlusskabel
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Drahtgebunden</a>
+                </li>
+                <li>
+                  <a href="#">Drahtlos</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          Support
+        </a>
+        <button type="button" name="button" class="open-menu" data-action="toggle-primaryMenu"><i class="fa fa-caret-left "></i></button>
+
+        <div class="submenu">
+          <ul>
+            <li>
+              <a href="#" class="category-title">Reperatur
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Link zu RMA</a>
+                </li>
+                <li>
+                  <a href="#">Link zu Wiki</a>
+                </li>
+
+              </ul>
+            </li>
+          </ul>
+
+          <ul >
+            <li>
+              <a href="#" class="category-title">Katalog</a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Katalog Download</a>
+                </li>
+
+              </ul>
+            </li>
+          </ul>
+
+          <ul >
+            <li>
+              <a href="#" class="category-title">Support
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Katalog Download</a>
+                </li>
+
+              </ul>
+            </li>
+          </ul>
+
+          <ul >
+            <li>
+              <a href="#" class="category-title">Formulare
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Headstsupport</a>
+                </li>
+                <li>
+                  <a href="#">Suprag Remote Support</a>
+                </li>
+                <li>
+                  <a href="#">Suprag WIKI</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul >
+            <li>
+              <a href="#" class="category-title">Formulare
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Retourenformular</a>
+                </li>
+                <li>
+                  <a href="#">Reparatourformular</a>
+                </li>
+
+              </ul>
+            </li>
+          </ul>
+
+          <ul >
+            <li>
+              <a href="#" class="category-title">Dokumentationen
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Doks. PDF</a>
+                </li>
+
+              </ul>
+            </li>
+          </ul>
+
+          <ul >
+            <li>
+              <a href="#" class="category-title">Programmier-anleitungen
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Progr. Anl. PDFs</a>
+                </li>
+
+              </ul>
+            </li>
+          </ul>
+
+          <ul >
+            <li>
+              <a href="#" class="category-title">Filme
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Videos</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="#" class="category-title">Anschlussübersicht
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul>
+                <li>
+                  <a href="#">Hersteller</a>
+                </li>
+                <li>
+                  <a href="#">Anschluübersicht</a>
+                </li>
+                <li>
+                  <a href="#">PDFs</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          Konfigurator
+        </a>
+        <button type="button" name="button" class="open-menu" data-action="toggle-primaryMenu"><i class="fa fa-caret-left "></i></button>
+
+        <div class="submenu collapse">
+          <ul>
+            <li>
+              <a href="#" class="category-title">Anschlussübersicht
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Hersteller</a>
+                </li>
+                <li>
+                  <a href="#">Anschluübersicht</a>
+                </li>
+                <li>
+                  <a href="#">PDFs</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          Firma
+        </a>
+        <button type="button" name="button" class="open-menu" data-action="toggle-primaryMenu"><i class="fa fa-caret-left "></i></button>
+
+        <div class="submenu">
+          <ul >
+            <li>
+              <a href="#" class="category-title">Blog
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Blogs</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="#" class="category-title">Team
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Team Übersicht</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="#" class="category-title">Über uns
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Firmen Portrait</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#" class="category-title">Suprag Vorteile
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Übersicht Vorteile</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="#" class="category-title">News
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">News</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="#" class="category-title">Newsletter
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Newsletter Anmelden</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="#" class="category-title">Referenzen
+              </a>
+              <button type="button" name="button" class="open-submenu" data-action="toggle-secondaryMenu"><i class="fa fa-caret-left "></i></button>
+
+              <ul class="secondaryMenu">
+                <li>
+                  <a href="#">Übersicht Referenzen</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+      <li>
+        <a class="nav-link" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Direktbestellung
+        </a>
+      </li>
+      <li class="nav-item hidden-desktop">
+        <a class="nav-link" href="#">
+          Sprache
+        </a>
+        <button type="button" name="button" class="open-menu" data-action="toggle-primaryMenu"><i class="fa fa-caret-left "></i></button>
+
+        <div class="submenu">
+          <ul class="secondaryMenu">
+            <li>
+              <a href="#" class="category-title">Deutsch
+              </a>
+            </li>
+            <li>
+              <a href="#" class="category-title">Französisch
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item hidden-desktop">
+          <a class="nav-link" href=":tel+41583172060">
+            Telefon
+          </a>
+        </li>
+        <li class="nav-item hidden-desktop">
+          <a class="nav-link" href=":tel+41583172060">
+            Newsletter
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="search-bar scroll">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Suchbegriff" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <a class="btn btn-secondary" ><i class="fa fa-search"></i> Suchen</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="shop-nav">
+      <ul>
+        <li class="hidden-desktop">
+          <a href="" class="display-search">
+            <i class="fa fa-search"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" data-toggle="tooltip" data-placement="bottom" title="Merkliste">
+            <span class="merkliste"></span>
+            <span class="cart-items-amount">9+</span></a>
+        </li>
+        <li>
+          <a href="#" data-toggle="tooltip" data-placement="bottom" title="Vergleichsliste" id="open-comparelist">
+            <span class="vergleichsliste"></span>
+            <span class="cart-items-amount">9+</span></a>
+
+        </li>
+
+        <li>
+          <a href="" data-toggle="tooltip" data-placement="bottom" title="Mein Konto">
+            <i class="fa fa-user"></i>
+
+          </a>
+        </li>
+        <li>
+          <a href="" class="icon-cart" data-toggle="tooltip" data-placement="bottom" title="Warenkorb">
+            <i class="fa fa-shopping-cart "></i>
+            <span class="cart-items-amount">9+</span></a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>

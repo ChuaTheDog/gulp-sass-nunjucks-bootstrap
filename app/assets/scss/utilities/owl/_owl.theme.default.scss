@@ -1,0 +1,98 @@
+$color-base: $red !default;
+$color-white: $white !default;
+$color-gray: $gray-dark !default;
+//nav
+$nav-color: $color-white !default;
+$nav-color-hover: $color-white !default;
+$nav-font-size: 28px !default;
+$nav-rounded: 0 !default;
+$nav-margin: 5px !default;
+$nav-padding: 4px 7px !default;
+$nav-background: $color-gray !default;
+$nav-background-hover: $color-base !default;
+$nav-disabled-opacity: 0.5 !default;
+//dots
+$dot-width: 10px !default;
+$dot-height: 10px !default;
+$dot-rounded: 30px !default;
+$dot-margin: 5px 7px !default;
+$dot-background: $color-gray !default;
+$dot-background-active: $color-base !default;
+
+.owl-theme {
+	// Styling Next and Prev buttons
+	.owl-nav {
+		//margin-top: 10px;
+		text-align: center;
+		-webkit-tap-highlight-color: transparent;
+
+		.owl-next {
+			position: absolute;
+			@include centerer($vertical: true, $horizontal: false);
+			right: 0;
+			//background: green;
+		}
+
+		.owl-prev {
+			position: absolute;
+			@include centerer($vertical: true, $horizontal: false);
+			left: 0;
+			//background: green;
+		}
+
+		[class*='owl-'] {
+			color: $black;
+			font-size: $nav-font-size;
+			//margin: $nav-margin;
+			//padding: $nav-padding;
+			//background: $nav-background;
+			//display: inline-block;
+			cursor: pointer;
+			border-radius: 3px;
+
+			&:hover {
+				//	background: $nav-background-hover;
+				color: $red;
+				text-decoration: none;
+			}
+		}
+
+		.disabled {
+			opacity: $nav-disabled-opacity;
+			cursor: default;
+		}
+	}
+	// Styling dots
+	.owl-nav.disabled + .owl-dots {
+		margin-top: 10px;
+	}
+
+	.owl-dots {
+		text-align: center;
+		-webkit-tap-highlight-color: transparent;
+
+		.owl-dot {
+			display: inline-block;
+			zoom: 1;
+			*display: inline;
+
+			span {
+				width: $dot-width;
+				height: $dot-height;
+				margin: $dot-margin;
+				background: $dot-background;
+				display: block;
+				-webkit-backface-visibility: visible;
+				transition: opacity 200ms ease;
+				border-radius: 30px;
+			}
+
+			&.active,
+			&:hover {
+				span {
+					background: $dot-background-active;
+				}
+			}
+		}
+	}
+}

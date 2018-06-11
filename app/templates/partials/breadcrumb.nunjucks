@@ -1,0 +1,17 @@
+
+  <div class="container-fluid hidden-mobile">
+		<div class="row">
+			<div class="col-lg-12">
+				<ol class="breadcrumb">
+					<li><a href="#">Home</a></li>
+					<li>
+						<a href="#">Produkte</a>
+					</li>
+					<li class="active">
+						<a href="#">Headsets</a>
+					</li>
+				</ol>
+			</div>
+			<!-- /col-lg-12 -->
+		</div>
+	</div>
